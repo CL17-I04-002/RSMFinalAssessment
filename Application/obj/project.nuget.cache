@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2Tl47pmsN8g=",
+  "dgSpecHash": "W670e8GgCXY=",
   "success": true,
   "projectFilePath": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Inspiron\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

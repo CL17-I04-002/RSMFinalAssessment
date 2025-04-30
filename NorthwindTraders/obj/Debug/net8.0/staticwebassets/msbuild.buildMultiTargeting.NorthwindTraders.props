@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NorthwindTraders.props" />
+</Project>

@@ -1,6 +1,6 @@
 using System.Diagnostics;
+using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
-using NorthwindTraders.Models;
 
 namespace NorthwindTraders.Controllers
 {
