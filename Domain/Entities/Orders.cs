@@ -23,7 +23,7 @@ namespace Domain.Entities
         public string? ShipPostalCode { get; set; } = string.Empty;
         public string? ShipCountry { get; set; } = string.Empty;
 
-        public virtual Customer? Customer { get; set; }
+        public virtual Customers? Customer { get; set; }
         public virtual Employees? Employee { get; set; }
 
         public virtual Shippers? Shipper { get; set; }

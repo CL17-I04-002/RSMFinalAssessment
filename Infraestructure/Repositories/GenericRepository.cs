@@ -29,7 +29,8 @@ namespace Infraestructure.Repositories
 
         public async Task<T> GetByIdAsync<T>(int id) where T : class
         {
-            return await context.Set<T>().AsNoTracking().FirstOrDefaultAsync(e => EF.Property<int>(e, "id") == id);
+            return await context.Set<T>().FindAsync(id);
+            //return await context.Set<T>().AsNoTracking().FirstOrDefaultAsync(e => EF.Property<int>(e, "id") == id);
         }
 
         public async Task SaveChangesAsync()

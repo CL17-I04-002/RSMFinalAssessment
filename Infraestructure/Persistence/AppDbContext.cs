@@ -16,6 +16,7 @@ namespace Infraestructure.Persistence
         public virtual DbSet<Orders> Orders { get; set; }
         public virtual DbSet<Employees> Employees { get; set; }
         public virtual DbSet<Shippers> Shippers { get; set; }
+        public virtual DbSet<Customers> Customers { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

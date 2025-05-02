@@ -36,8 +36,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Inspiron/Documents/RSM/FinalAssessment/NorthwindTraders/Views/OManagement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT01hbmFnZW1lbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Inspiron/Documents/RSM/FinalAssessment/NorthwindTraders/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Inspiron/Documents/RSM/FinalAssessment/NorthwindTraders/Views/Shared/_ButtonOptionsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CdXR0b25PcHRpb25zUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Inspiron/Documents/RSM/FinalAssessment/NorthwindTraders/Views/Shared/_ValidationScriptsPartial.cshtml]

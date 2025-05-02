@@ -15,6 +15,9 @@ namespace Application
         {
             services.AddScoped<IOrderDetailService, OrderDetailService>();
             services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<IProductService, ProductService>();
             return services;
         }
     }

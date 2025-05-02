@@ -21,7 +21,7 @@ namespace Application.Services
                 OrderID = request.OrderId,
                 ProductID = request.ProductId,
                 Quantity = request.Quantity,
-                UnitPrice = product.UnitPrice ?? 0,
+                UnitPrice = product.UnitPrice ?? 0M,
                 Discount = 0
             };
 

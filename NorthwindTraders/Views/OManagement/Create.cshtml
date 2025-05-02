@@ -1,0 +1,104 @@
+﻿@model Application.dto.CreateOrderViewModel
+@{
+    ViewData["Title"] = "Create";
+    string create = "create";
+}
+
+<!-- ORDER -->
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-dark text-light">
+            <div class="row">
+                <div class="col-md-6">
+                    <i class="fa fa-save"></i>&nbsp;Create Product
+                </div>
+                <div class="col-md-6 text-end"></div>
+            </div>
+        </div>
+        <div class="card-body">
+                <div class="text-end mt-4">
+                    <partial name="_ButtonOptionsPartial" model="create" />
+                </div> 
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Customer</label>
+                    <select class="form-control" asp-items="ViewBag.CustomerList" asp-for="Order.CustomerId">
+                            <option value="">Select customer</option>
+                        </select>
+                    <span asp-validation-for="Order.CustomerId" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                    <label asp-for="Order.OrderDate" class="form-label">Order Date</label>
+                    <input asp-for="Order.OrderDate" class="form-control" type="datetime-local" />
+                    <span asp-validation-for="Order.OrderDate" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                    <label asp-for="Order.ShipAddress" class="form-label">Ship Address</label>
+                    <input class="form-control" asp-for="Order.ShipAddress" />
+                    <span asp-validation-for="Order.ShipAddress" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Employee</label>
+                    <select class="form-control" asp-items="ViewBag.EmployeeList" asp-for="Order.EmployeeId">
+                            <option value="">Select employee</option>
+                        </select>
+                    <span asp-validation-for="Order.EmployeeId" class="text-danger"></span>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!-- ORDER DETAIL -->
+<div class="card mt-4">
+    <div class="card-header bg-secondary text-white">
+        <strong>List</strong>
+    </div>
+    <div class="card-body">
+        <div class="row mb-3">
+            <div class="col-md-3">
+                <label class="form-label">Product</label>
+                <select class="form-control" asp-items="ViewBag.ProductList" id="productId"></select>
+            </div>
+            <div class="col-md-2">
+                <label class="form-label">Quantity</label>
+                <input type="number" class="form-control" id="quantity" />
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">Unit Price</label>
+                <input type="number" step="0.01" class="form-control" id="unitPrice" readonly />
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">Total</label>
+                <input type="number" step="0.01" class="form-control" id="total" readonly />
+            </div>
+            <div class="col-md-1 d-flex align-items-end">
+                <button class="btn btn-primary w-100" id="addItem">Add</button>
+            </div>
+        </div>
+        <table class="table table-bordered mt-4" id="orderDetailsTable">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Filas se agregarán con JS -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/saveOrder.js"></script>
+    <script src="~/js/productPriceLoader.js"></script>
+    <script src="~/js/totalCalculated.js"></script>
+}

@@ -1,10 +1,16 @@
+using Application;
+using Infraestructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddApplicationService();
+builder.Services.AddInfrastructureServices(builder.Configuration);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddControllersWithViews()
     .AddRazorRuntimeCompilation();
+
 
 var app = builder.Build();
 
@@ -25,6 +31,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=OManagement}/{action=Create}/{id?}");
+//pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

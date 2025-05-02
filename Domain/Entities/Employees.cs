@@ -13,8 +13,8 @@ namespace Domain.Entities
         public string? FirstName { get; set; } = string.Empty;
         public string? Title { get; set; } = string.Empty;
         public string? TitleOfCourtesy { get; set; } = string.Empty;
-        public DateTime? BirthDate { get; set; } = new DateTime();
-        public DateTime? HireDate { get; set; } = new DateTime();
+        public DateTime? BirthDate { get; set; }
+        public DateTime? HireDate { get; set; }
         public string? Address { get; set; } = string.Empty;
         public string? City { get; set; } = string.Empty;
         public string? Region { get; set; } = string.Empty;

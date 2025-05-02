@@ -20,6 +20,9 @@ namespace Application.Services
                 EmployeeID = request.EmployeeId,
                 OrderDate = request.OrderDate,
                 ShipAddress = request.ShipAddress,
+                RequiredDate = null,
+                ShippedDate = null,
+                ShipVia = null
             };
 
             await _repository.AddAsync(order);
