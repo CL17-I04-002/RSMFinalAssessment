@@ -1,6 +1,6 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {
-    const productSelect = document.getElementById("productId");
-    const unitPriceInput = document.getElementById("unitPrice");
+    const productSelect = document.getElementById("OrderDetails_ProductId");
+    const unitPriceInput = document.getElementById("OrderDetails_UnitPrice");
 
     productSelect.addEventListener("change", function () {
         const productId = productSelect.value;

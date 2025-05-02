@@ -10,5 +10,6 @@ namespace Application.Interfaces
     public interface IOrderDetailService
     {
         Task CreateOrderAsync(CreateOrderDetailRequest request);
+        Task DeleteOrderDetailAsync(int orderId, int productId);
     }
 }

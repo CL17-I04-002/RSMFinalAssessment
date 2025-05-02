@@ -13,7 +13,7 @@ namespace Infraestructure.Configuration
     {
         public void Configure(EntityTypeBuilder<OrderDetails> builder)
         {
-            builder.ToTable(nameof(OrderDetails));
+            builder.ToTable("Order Details");
 
             builder.HasKey(od => new { od.OrderID, od.ProductID });
 

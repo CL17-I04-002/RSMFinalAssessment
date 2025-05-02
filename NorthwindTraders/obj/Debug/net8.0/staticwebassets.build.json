@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nutyGhPNkjwK/zrgu4gTzimYfeXGX/0q1xl8N6J6188=",
+  "Hash": "iqloyqZDZ1QaZsCMxv6IrqzOLQk6wao1U/mW0VJmjUQ=",
   "Source": "NorthwindTraders",
   "BasePath": "_content/NorthwindTraders",
   "Mode": "Default",
@@ -1004,6 +1004,27 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
+      "Identity": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\deleteItem.js",
+      "SourceId": "NorthwindTraders",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\",
+      "BasePath": "_content/NorthwindTraders",
+      "RelativePath": "js/deleteItem#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b6jlzwjpnx",
+      "Integrity": "rbh9oqg80QP9J5M78WGc6aRSeSQd7pOEYXz7y3AamNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\deleteItem.js"
+    },
+    {
       "Identity": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\productPriceLoader.js",
       "SourceId": "NorthwindTraders",
       "SourceType": "Discovered",
@@ -1018,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3f14q1kemc",
-      "Integrity": "L56yOKp/0FInmNwkbz18DSb/nPxvgN7XwfBpSWL1i6s=",
+      "Fingerprint": "l6ywimzvod",
+      "Integrity": "Dc8Dmvs201dtMiagvU/Ai2ZaGh/yf7aNJHLC8XOsXDI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\productPriceLoader.js"
@@ -1039,11 +1060,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kxq836pv2s",
-      "Integrity": "WEWnQmQijXhF3J9ooezrDjr+Lag71mXd0WyCwCMcpks=",
+      "Fingerprint": "kzmox5910p",
+      "Integrity": "oLABBC3/G4qi5nJn4HvZctnLefSfXaxxLaueJ/kz+k0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\saveOrder.js"
+    },
+    {
+      "Identity": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\saveOrderDetail.js",
+      "SourceId": "NorthwindTraders",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\",
+      "BasePath": "_content/NorthwindTraders",
+      "RelativePath": "js/saveOrderDetail#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oph2ieco7r",
+      "Integrity": "LNDBMduP/UN4dJDbpbCbjXDTudquMnNtIZe0I3OMP2g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\saveOrderDetail.js"
     },
     {
       "Identity": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\site.js",
@@ -1081,8 +1123,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "11hx8icw2u",
-      "Integrity": "i9vU/BA/k5CMX3W5APXBUPHkR5qNADwbloUwdYF/tKs=",
+      "Fingerprint": "1ijxyxiclf",
+      "Integrity": "B3lW/XqSbJKjZGBwKkFvslAL3IeiaB3lo2NeQyvwTMw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\totalCalculated.js"
@@ -5977,8 +6019,8 @@
       ]
     },
     {
-      "Route": "js/productPriceLoader.3f14q1kemc.js",
-      "AssetFile": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\productPriceLoader.js",
+      "Route": "js/deleteItem.b6jlzwjpnx.js",
+      "AssetFile": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\deleteItem.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5987,7 +6029,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "966"
+          "Value": "1743"
         },
         {
           "Name": "Content-Type",
@@ -5995,11 +6037,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L56yOKp/0FInmNwkbz18DSb/nPxvgN7XwfBpSWL1i6s=\""
+          "Value": "\"rbh9oqg80QP9J5M78WGc6aRSeSQd7pOEYXz7y3AamNQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 04:23:58 GMT"
+          "Value": "Fri, 02 May 2025 23:00:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6009,15 +6051,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3f14q1kemc"
+          "Value": "b6jlzwjpnx"
         },
         {
           "Name": "label",
-          "Value": "js/productPriceLoader.js"
+          "Value": "js/deleteItem.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-L56yOKp/0FInmNwkbz18DSb/nPxvgN7XwfBpSWL1i6s="
+          "Value": "sha256-rbh9oqg80QP9J5M78WGc6aRSeSQd7pOEYXz7y3AamNQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/deleteItem.js",
+      "AssetFile": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\deleteItem.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1743"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rbh9oqg80QP9J5M78WGc6aRSeSQd7pOEYXz7y3AamNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 23:00:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rbh9oqg80QP9J5M78WGc6aRSeSQd7pOEYXz7y3AamNQ="
         }
       ]
     },
@@ -6032,7 +6111,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "966"
+          "Value": "992"
         },
         {
           "Name": "Content-Type",
@@ -6040,11 +6119,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L56yOKp/0FInmNwkbz18DSb/nPxvgN7XwfBpSWL1i6s=\""
+          "Value": "\"Dc8Dmvs201dtMiagvU/Ai2ZaGh/yf7aNJHLC8XOsXDI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 04:23:58 GMT"
+          "Value": "Fri, 02 May 2025 18:07:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6054,7 +6133,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-L56yOKp/0FInmNwkbz18DSb/nPxvgN7XwfBpSWL1i6s="
+          "Value": "sha256-Dc8Dmvs201dtMiagvU/Ai2ZaGh/yf7aNJHLC8XOsXDI="
+        }
+      ]
+    },
+    {
+      "Route": "js/productPriceLoader.l6ywimzvod.js",
+      "AssetFile": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\productPriceLoader.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "992"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dc8Dmvs201dtMiagvU/Ai2ZaGh/yf7aNJHLC8XOsXDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 18:07:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l6ywimzvod"
+        },
+        {
+          "Name": "label",
+          "Value": "js/productPriceLoader.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dc8Dmvs201dtMiagvU/Ai2ZaGh/yf7aNJHLC8XOsXDI="
         }
       ]
     },
@@ -6069,7 +6193,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1606"
+          "Value": "1717"
         },
         {
           "Name": "Content-Type",
@@ -6077,11 +6201,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WEWnQmQijXhF3J9ooezrDjr+Lag71mXd0WyCwCMcpks=\""
+          "Value": "\"oLABBC3/G4qi5nJn4HvZctnLefSfXaxxLaueJ/kz+k0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 03:31:51 GMT"
+          "Value": "Fri, 02 May 2025 22:28:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6091,12 +6215,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WEWnQmQijXhF3J9ooezrDjr+Lag71mXd0WyCwCMcpks="
+          "Value": "sha256-oLABBC3/G4qi5nJn4HvZctnLefSfXaxxLaueJ/kz+k0="
         }
       ]
     },
     {
-      "Route": "js/saveOrder.kxq836pv2s.js",
+      "Route": "js/saveOrder.kzmox5910p.js",
       "AssetFile": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\saveOrder.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6106,7 +6230,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1606"
+          "Value": "1717"
         },
         {
           "Name": "Content-Type",
@@ -6114,11 +6238,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WEWnQmQijXhF3J9ooezrDjr+Lag71mXd0WyCwCMcpks=\""
+          "Value": "\"oLABBC3/G4qi5nJn4HvZctnLefSfXaxxLaueJ/kz+k0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 03:31:51 GMT"
+          "Value": "Fri, 02 May 2025 22:28:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6128,7 +6252,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kxq836pv2s"
+          "Value": "kzmox5910p"
         },
         {
           "Name": "label",
@@ -6136,7 +6260,89 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WEWnQmQijXhF3J9ooezrDjr+Lag71mXd0WyCwCMcpks="
+          "Value": "sha256-oLABBC3/G4qi5nJn4HvZctnLefSfXaxxLaueJ/kz+k0="
+        }
+      ]
+    },
+    {
+      "Route": "js/saveOrderDetail.js",
+      "AssetFile": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\saveOrderDetail.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LNDBMduP/UN4dJDbpbCbjXDTudquMnNtIZe0I3OMP2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 23:11:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LNDBMduP/UN4dJDbpbCbjXDTudquMnNtIZe0I3OMP2g="
+        }
+      ]
+    },
+    {
+      "Route": "js/saveOrderDetail.oph2ieco7r.js",
+      "AssetFile": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\saveOrderDetail.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LNDBMduP/UN4dJDbpbCbjXDTudquMnNtIZe0I3OMP2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 23:11:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oph2ieco7r"
+        },
+        {
+          "Name": "label",
+          "Value": "js/saveOrderDetail.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LNDBMduP/UN4dJDbpbCbjXDTudquMnNtIZe0I3OMP2g="
         }
       ]
     },
@@ -6223,7 +6429,7 @@
       ]
     },
     {
-      "Route": "js/totalCalculated.11hx8icw2u.js",
+      "Route": "js/totalCalculated.1ijxyxiclf.js",
       "AssetFile": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\totalCalculated.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6233,7 +6439,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "654"
+          "Value": "680"
         },
         {
           "Name": "Content-Type",
@@ -6241,11 +6447,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i9vU/BA/k5CMX3W5APXBUPHkR5qNADwbloUwdYF/tKs=\""
+          "Value": "\"B3lW/XqSbJKjZGBwKkFvslAL3IeiaB3lo2NeQyvwTMw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 04:58:34 GMT"
+          "Value": "Fri, 02 May 2025 18:09:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6255,7 +6461,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "11hx8icw2u"
+          "Value": "1ijxyxiclf"
         },
         {
           "Name": "label",
@@ -6263,7 +6469,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-i9vU/BA/k5CMX3W5APXBUPHkR5qNADwbloUwdYF/tKs="
+          "Value": "sha256-B3lW/XqSbJKjZGBwKkFvslAL3IeiaB3lo2NeQyvwTMw="
         }
       ]
     },
@@ -6278,7 +6484,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "654"
+          "Value": "680"
         },
         {
           "Name": "Content-Type",
@@ -6286,11 +6492,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i9vU/BA/k5CMX3W5APXBUPHkR5qNADwbloUwdYF/tKs=\""
+          "Value": "\"B3lW/XqSbJKjZGBwKkFvslAL3IeiaB3lo2NeQyvwTMw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 04:58:34 GMT"
+          "Value": "Fri, 02 May 2025 18:09:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6300,7 +6506,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-i9vU/BA/k5CMX3W5APXBUPHkR5qNADwbloUwdYF/tKs="
+          "Value": "sha256-B3lW/XqSbJKjZGBwKkFvslAL3IeiaB3lo2NeQyvwTMw="
         }
       ]
     },
@@ -11001,7 +11207,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 04:07:00 GMT"
+          "Value": "Fri, 02 May 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11038,7 +11244,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 04:07:00 GMT"
+          "Value": "Fri, 02 May 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11083,7 +11289,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 04:07:00 GMT"
+          "Value": "Fri, 02 May 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11128,7 +11334,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 04:07:00 GMT"
+          "Value": "Fri, 02 May 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",

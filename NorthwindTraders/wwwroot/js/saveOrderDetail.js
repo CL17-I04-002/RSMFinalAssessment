@@ -1,57 +1,81 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {
-    const addItemButton = document.getElementById("addItem");
-    const productSelect = document.getElementById("productId");
-    const unitPriceInput = document.getElementById("unitPrice");
-    const quantityInput = document.getElementById("quantity");
+    const productSelect = document.getElementById("OrderDetails_ProductId");
+    const unitPriceInput = document.getElementById("OrderDetails_UnitPrice");
+    const quantityInput = document.getElementById("OrderDetails_Quantity");
     const totalInput = document.getElementById("total");
+    const btnSave = document.getElementById("addItem");
 
-    addItemButton.addEventListener("click", function (event) {
-        // Prevenir la acción por defecto del botón si es necesario
-        event.preventDefault();
+    if (btnSave) {
+        btnSave.addEventListener("click", function (event) {
+            event.preventDefault();
 
-        const productId = productSelect.value;
-        const quantity = parseFloat(quantityInput.value) || 0;
-        const unitPrice = parseFloat(unitPriceInput.value) || 0;
-        const total = parseFloat(totalInput.value) || 0;
+            const productId = productSelect.value;
+            const orderId = document.getElementById("currentOrderId").value;
+            const productName = productSelect.options[productSelect.selectedIndex].text;
+            const quantity = parseFloat(quantityInput.value) || 0;
+            const unitPrice = parseFloat(unitPriceInput.value) || 0;
+            const total = quantity * unitPrice;
 
-        // Verificar que los valores sean válidos antes de enviar
-        if (!productId || quantity <= 0 || unitPrice <= 0) {
-            alert("Please fill in all the fields correctly.");
-            return;
-        }
+            if (!productId || quantity <= 0 || unitPrice <= 0) {
+                alert("Please fill in all the fields correctly.");
+                return;
+            }
 
-        // Crear el objeto con los datos a enviar
-        const itemData = {
-            productId: productId,
-            quantity: quantity,
-            unitPrice: unitPrice,
-            total: total
-        };
+            const itemData = {
+                orderId: orderId,
+                productId: productId,
+                quantity: quantity,
+                unitPrice: unitPrice,
+                total: total
+            };
 
-        // Enviar los datos al controlador usando Fetch (POST)
-        fetch('/OManagement/AddItem', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(itemData)
-        })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Error adding item.');
-                }
-                return response.json();
+            console.log("itemData: ", itemData);
+
+            fetch('/OManagement/AddItem', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(itemData)
             })
-            .then(data => {
-                // Aquí puedes manejar la respuesta del servidor, por ejemplo:
-                alert('Item added successfully!');
-                // Opcionalmente limpiar los campos
-                quantityInput.value = '';
-                totalInput.value = '';
-            })
-            .catch(error => {
-                alert('Error when adding item');
-                console.error(error);
-            });
-    });
+                .then(response => response.json())
+                .then(result => {
+                    if (result.success) {
+                        alert("✔️ Item added successfully!");
+
+                        quantityInput.value = '';
+                        unitPriceInput.value = '';
+                        totalInput.value = '';
+
+                        const tableBody = document.querySelector("#orderDetailsTable tbody");
+                        const newRow = document.createElement("tr");
+                        newRow.setAttribute("data-product-id", productId);
+                        newRow.setAttribute("data-order-id", orderId);
+
+                        console.log("ProductName: " + productName);
+                        console.log("Quantity: " + quantity);
+                        console.log("UnitPrice: " + unitPrice);
+                        console.log("Total: " + total);
+
+                        newRow.innerHTML = `
+                            <td>${productName}</td>
+                            <td>${quantity}</td>
+                            <td>${unitPrice.toFixed(2)}</td>
+                            <td>${total.toFixed(2)}</td>
+                            <td>
+                                <button class="btn btn-danger btn-form delete-btn">Delete</button>
+                            </td>
+                        `;
+
+                        tableBody.appendChild(newRow);
+                    } else {
+                        alert("❌ Error: " + (result.message || "Unknown error"));
+                    }
+                })
+                .catch(error => {
+                    alert("❌ Error when adding item");
+                    console.error(error);
+                });
+        });
+    }
 });

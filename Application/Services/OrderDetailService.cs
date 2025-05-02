@@ -28,5 +28,11 @@ namespace Application.Services
             await _repository.AddAsync(detail);
             await _repository.SaveChangesAsync();
         }
+
+        public async Task DeleteOrderDetailAsync(int orderId, int productId)
+        {
+            await _repository.DeleteByConditionAsync<OrderDetails>(od => od.OrderID == orderId && od.ProductID == productId);
+            await _repository.SaveChangesAsync();
+        }
     }
 }

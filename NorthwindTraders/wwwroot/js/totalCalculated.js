@@ -1,6 +1,6 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {
-    const unitPriceInput = document.getElementById("unitPrice");
-    const quantityInput = document.getElementById("quantity");
+    const unitPriceInput = document.getElementById("OrderDetails_UnitPrice");
+    const quantityInput = document.getElementById("OrderDetails_Quantity");
     const totalInput = document.getElementById("total");
 
     function calculateTotal() {

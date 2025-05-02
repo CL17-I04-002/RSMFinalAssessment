@@ -810,6 +810,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\font-awesome\webfonts\fa-v4compatibility.woff2'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\deleteItem.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>NorthwindTraders</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NorthwindTraders</BasePath>
+      <RelativePath>js/deleteItem.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>b6jlzwjpnx</Fingerprint>
+      <Integrity>rbh9oqg80QP9J5M78WGc6aRSeSQd7pOEYXz7y3AamNQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\deleteItem.js'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\productPriceLoader.js'))">
       <SourceType>Package</SourceType>
       <SourceId>NorthwindTraders</SourceId>
@@ -822,8 +840,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3f14q1kemc</Fingerprint>
-      <Integrity>L56yOKp/0FInmNwkbz18DSb/nPxvgN7XwfBpSWL1i6s=</Integrity>
+      <Fingerprint>l6ywimzvod</Fingerprint>
+      <Integrity>Dc8Dmvs201dtMiagvU/Ai2ZaGh/yf7aNJHLC8XOsXDI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\productPriceLoader.js'))</OriginalItemSpec>
@@ -840,11 +858,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kxq836pv2s</Fingerprint>
-      <Integrity>WEWnQmQijXhF3J9ooezrDjr+Lag71mXd0WyCwCMcpks=</Integrity>
+      <Fingerprint>kzmox5910p</Fingerprint>
+      <Integrity>oLABBC3/G4qi5nJn4HvZctnLefSfXaxxLaueJ/kz+k0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\saveOrder.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\saveOrderDetail.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>NorthwindTraders</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NorthwindTraders</BasePath>
+      <RelativePath>js/saveOrderDetail.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>oph2ieco7r</Fingerprint>
+      <Integrity>LNDBMduP/UN4dJDbpbCbjXDTudquMnNtIZe0I3OMP2g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\saveOrderDetail.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>
@@ -876,8 +912,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>11hx8icw2u</Fingerprint>
-      <Integrity>i9vU/BA/k5CMX3W5APXBUPHkR5qNADwbloUwdYF/tKs=</Integrity>
+      <Fingerprint>1ijxyxiclf</Fingerprint>
+      <Integrity>B3lW/XqSbJKjZGBwKkFvslAL3IeiaB3lo2NeQyvwTMw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\totalCalculated.js'))</OriginalItemSpec>

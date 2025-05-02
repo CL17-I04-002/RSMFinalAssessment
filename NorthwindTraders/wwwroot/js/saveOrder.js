@@ -4,10 +4,10 @@
     if (btnSave) {
         btnSave.addEventListener('click', async function () {
             // GET Data from backend
-            const customerId = document.querySelector('[name="CustomerId"]').value;
-            const employeeId = document.querySelector('[name="EmployeeId"]').value;
-            const orderDate = document.querySelector('[name="OrderDate"]').value;
-            const shipAddress = document.querySelector('[name="ShipAddress"]').value;
+            const customerId = document.querySelector('[name="Order.CustomerId"]').value;
+            const employeeId = document.querySelector('[name="Order.EmployeeId"]').value;
+            const orderDate = document.querySelector('[name="Order.OrderDate"]').value;
+            const shipAddress = document.querySelector('[name="Order.ShipAddress"]').value;
 
             const data = {
                 customerId: customerId,
@@ -28,6 +28,7 @@
                 const result = await response.json();
 
                 if (response.ok && result.success) {
+                    document.getElementById("currentOrderId").value = result.orderId;
                     alert("¡Data was saved! ID: " + result.orderId);
                 } else {
                     alert("Error: " + (result.message || "Unknown Error"));

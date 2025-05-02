@@ -22,6 +22,13 @@ namespace NorthwindTraders.Controllers
         {
             return View();
         }
+
+        //public IActionResult Create()
+        //{
+        //    int orderId = HttpContext.Session.GetInt32("CurrentOrderId") ?? 0;
+        //    ViewData["CurrentOrderId"] = orderId;
+        //    return View();
+        //}
         public async Task<IActionResult> Create()
         {
             var employees = await employeeService.GetAllEmployeesAsync();
@@ -39,6 +46,7 @@ namespace NorthwindTraders.Controllers
             if (ModelState.IsValid)
             {
                 var orderId = await orderService.CreateOrderAsync(request);
+                HttpContext.Session.SetInt32("CurrentOrderId", orderId);
                 return Ok(new { success = true, orderId = orderId });
             }
             return BadRequest(new { success = false, message = "Invalid data" });
@@ -64,25 +72,23 @@ namespace NorthwindTraders.Controllers
             return BadRequest(new { success = false, message = "Invalid data" });
         }
         [HttpPost]
-        public async Task<IActionResult> AddItem([FromBody] CreateOrderDetailRequest itemDto)
+        public async Task<IActionResult> AddItem([FromBody] CreateOrderDetailRequest request)
         {
-            if (itemDto == null || itemDto.Quantity <= 0 || itemDto.UnitPrice <= 0)
-            {
-                return BadRequest("Invalid item data.");
-            }
+            if (request == null || request.Quantity <= 0 || request.UnitPrice <= 0M) return BadRequest("Invalid item data.");
 
-            try
-            {
-                
-                await orderDetailService.CreateOrderAsync(itemDto);
+            int? orderId = HttpContext.Session.GetInt32("CurrentOrderId");
+            request.OrderId = orderId!.Value;
 
-                return Json(new { success = true, message = "Item added successfully" });
-            }
-            catch (Exception ex)
-            {
-                // Si hay un error, retornar un mensaje de error
-                return Json(new { success = false, message = "Error adding item: " + ex.Message });
-            }
+            await orderDetailService.CreateOrderAsync(request);
+
+            return Json(new { success = true, message = "Item added successfully" });
+        }
+        [HttpPost]
+        public async Task<IActionResult> DeleteItem([FromBody] DeleteItemRequest request)
+        {
+            if (request.OrderId <= 0 || request.ProductId <= 0) return BadRequest("Invalid item data.");
+            await orderDetailService.DeleteOrderDetailAsync(request.OrderId, request.ProductId);
+            return Json(new { success = true, message = "Item deleted successfully" });
         }
     }
 }

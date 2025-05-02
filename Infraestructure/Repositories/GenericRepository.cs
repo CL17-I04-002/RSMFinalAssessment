@@ -17,6 +17,12 @@ namespace Infraestructure.Repositories
             await context.Set<T>().AddAsync(entity);
         }
 
+        public async Task DeleteByConditionAsync<T>(Expression<Func<T, bool>> predicate) where T : class
+        {
+            var entities = await context.Set<T>().Where(predicate).ToListAsync();
+            if (entities.Any()) context.Set<T>().RemoveRange(entities);
+        }
+
         public async Task<IEnumerable<T>> FindByConditionAsync<T>(Expression<Func<T, bool>> predicate) where T : class
         {
             return await context.Set<T>().Where(predicate).ToListAsync();

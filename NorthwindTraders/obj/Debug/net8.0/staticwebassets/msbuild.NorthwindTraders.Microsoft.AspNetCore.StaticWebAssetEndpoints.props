@@ -540,29 +540,53 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xvfn3ulft8"},{"Name":"integrity","Value":"sha256-Lds7QRSpy1ZeSbCvIcw6yIzQQ760m\u002BMouPV6Y0mJ4Kw="},{"Name":"label","Value":"_content/NorthwindTraders/font-awesome/webfonts/fa-v4compatibility.ttf"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10140"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022Lds7QRSpy1ZeSbCvIcw6yIzQQ760m\u002BMouPV6Y0mJ4Kw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 03:24:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/productPriceLoader.3f14q1kemc.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\productPriceLoader.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/deleteItem.b6jlzwjpnx.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\deleteItem.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3f14q1kemc"},{"Name":"integrity","Value":"sha256-L56yOKp/0FInmNwkbz18DSb/nPxvgN7XwfBpSWL1i6s="},{"Name":"label","Value":"_content/NorthwindTraders/js/productPriceLoader.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"966"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022L56yOKp/0FInmNwkbz18DSb/nPxvgN7XwfBpSWL1i6s=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 04:23:58 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b6jlzwjpnx"},{"Name":"integrity","Value":"sha256-rbh9oqg80QP9J5M78WGc6aRSeSQd7pOEYXz7y3AamNQ="},{"Name":"label","Value":"_content/NorthwindTraders/js/deleteItem.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1743"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022rbh9oqg80QP9J5M78WGc6aRSeSQd7pOEYXz7y3AamNQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 23:00:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/deleteItem.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\deleteItem.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rbh9oqg80QP9J5M78WGc6aRSeSQd7pOEYXz7y3AamNQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1743"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022rbh9oqg80QP9J5M78WGc6aRSeSQd7pOEYXz7y3AamNQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 23:00:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/productPriceLoader.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\productPriceLoader.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-L56yOKp/0FInmNwkbz18DSb/nPxvgN7XwfBpSWL1i6s="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"966"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022L56yOKp/0FInmNwkbz18DSb/nPxvgN7XwfBpSWL1i6s=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 04:23:58 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Dc8Dmvs201dtMiagvU/Ai2ZaGh/yf7aNJHLC8XOsXDI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"992"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Dc8Dmvs201dtMiagvU/Ai2ZaGh/yf7aNJHLC8XOsXDI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 18:07:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/productPriceLoader.l6ywimzvod.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\productPriceLoader.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l6ywimzvod"},{"Name":"integrity","Value":"sha256-Dc8Dmvs201dtMiagvU/Ai2ZaGh/yf7aNJHLC8XOsXDI="},{"Name":"label","Value":"_content/NorthwindTraders/js/productPriceLoader.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"992"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Dc8Dmvs201dtMiagvU/Ai2ZaGh/yf7aNJHLC8XOsXDI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 18:07:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/saveOrder.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\saveOrder.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WEWnQmQijXhF3J9ooezrDjr\u002BLag71mXd0WyCwCMcpks="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1606"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022WEWnQmQijXhF3J9ooezrDjr\u002BLag71mXd0WyCwCMcpks=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 03:31:51 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oLABBC3/G4qi5nJn4HvZctnLefSfXaxxLaueJ/kz\u002Bk0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1717"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022oLABBC3/G4qi5nJn4HvZctnLefSfXaxxLaueJ/kz\u002Bk0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 22:28:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/saveOrder.kxq836pv2s.js">
+    <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/saveOrder.kzmox5910p.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\saveOrder.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kxq836pv2s"},{"Name":"integrity","Value":"sha256-WEWnQmQijXhF3J9ooezrDjr\u002BLag71mXd0WyCwCMcpks="},{"Name":"label","Value":"_content/NorthwindTraders/js/saveOrder.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1606"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022WEWnQmQijXhF3J9ooezrDjr\u002BLag71mXd0WyCwCMcpks=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 03:31:51 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kzmox5910p"},{"Name":"integrity","Value":"sha256-oLABBC3/G4qi5nJn4HvZctnLefSfXaxxLaueJ/kz\u002Bk0="},{"Name":"label","Value":"_content/NorthwindTraders/js/saveOrder.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1717"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022oLABBC3/G4qi5nJn4HvZctnLefSfXaxxLaueJ/kz\u002Bk0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 22:28:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/saveOrderDetail.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\saveOrderDetail.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LNDBMduP/UN4dJDbpbCbjXDTudquMnNtIZe0I3OMP2g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3434"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022LNDBMduP/UN4dJDbpbCbjXDTudquMnNtIZe0I3OMP2g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 23:11:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/saveOrderDetail.oph2ieco7r.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\saveOrderDetail.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oph2ieco7r"},{"Name":"integrity","Value":"sha256-LNDBMduP/UN4dJDbpbCbjXDTudquMnNtIZe0I3OMP2g="},{"Name":"label","Value":"_content/NorthwindTraders/js/saveOrderDetail.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3434"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022LNDBMduP/UN4dJDbpbCbjXDTudquMnNtIZe0I3OMP2g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 23:11:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
@@ -576,17 +600,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xtxxf3hu2r"},{"Name":"integrity","Value":"sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="},{"Name":"label","Value":"_content/NorthwindTraders/js/site.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 03:11:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/totalCalculated.11hx8icw2u.js">
+    <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/totalCalculated.1ijxyxiclf.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\totalCalculated.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"11hx8icw2u"},{"Name":"integrity","Value":"sha256-i9vU/BA/k5CMX3W5APXBUPHkR5qNADwbloUwdYF/tKs="},{"Name":"label","Value":"_content/NorthwindTraders/js/totalCalculated.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"654"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022i9vU/BA/k5CMX3W5APXBUPHkR5qNADwbloUwdYF/tKs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 04:58:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ijxyxiclf"},{"Name":"integrity","Value":"sha256-B3lW/XqSbJKjZGBwKkFvslAL3IeiaB3lo2NeQyvwTMw="},{"Name":"label","Value":"_content/NorthwindTraders/js/totalCalculated.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"680"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022B3lW/XqSbJKjZGBwKkFvslAL3IeiaB3lo2NeQyvwTMw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 18:09:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/totalCalculated.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\totalCalculated.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-i9vU/BA/k5CMX3W5APXBUPHkR5qNADwbloUwdYF/tKs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"654"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022i9vU/BA/k5CMX3W5APXBUPHkR5qNADwbloUwdYF/tKs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 04:58:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-B3lW/XqSbJKjZGBwKkFvslAL3IeiaB3lo2NeQyvwTMw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"680"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022B3lW/XqSbJKjZGBwKkFvslAL3IeiaB3lo2NeQyvwTMw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 18:09:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NorthwindTraders/lib/bootstrap/dist/css/bootstrap-grid.9n0ta5ieki.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>
@@ -1276,13 +1300,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NorthwindTraders.cr1b8kcs9d.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qHUqy9HSuT9yEyWzmUsMF\u002B3DBSCspiTU8D2cRWwGCWQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022qHUqy9HSuT9yEyWzmUsMF\u002B3DBSCspiTU8D2cRWwGCWQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 04:07:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022qHUqy9HSuT9yEyWzmUsMF\u002B3DBSCspiTU8D2cRWwGCWQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 21:51:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NorthwindTraders/NorthwindTraders.cr1b8kcs9d.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NorthwindTraders.cr1b8kcs9d.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cr1b8kcs9d"},{"Name":"integrity","Value":"sha256-qHUqy9HSuT9yEyWzmUsMF\u002B3DBSCspiTU8D2cRWwGCWQ="},{"Name":"label","Value":"_content/NorthwindTraders/NorthwindTraders.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022qHUqy9HSuT9yEyWzmUsMF\u002B3DBSCspiTU8D2cRWwGCWQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 04:07:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022qHUqy9HSuT9yEyWzmUsMF\u002B3DBSCspiTU8D2cRWwGCWQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 21:51:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

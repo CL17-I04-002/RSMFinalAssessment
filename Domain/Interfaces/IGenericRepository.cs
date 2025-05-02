@@ -14,5 +14,6 @@ namespace Domain.Interfaces
         Task AddAsync<T>(T entity) where T : class;
         Task<IEnumerable<T>> FindByConditionAsync<T>(Expression<Func<T, bool>> predicate) where T : class;
         Task SaveChangesAsync();
+        Task DeleteByConditionAsync<T>(Expression<Func<T, bool>> predicate) where T : class;
     }
 }
