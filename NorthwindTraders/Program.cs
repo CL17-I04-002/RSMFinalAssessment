@@ -1,11 +1,18 @@
 using Application;
 using Infraestructure;
+using Infraestructure.ExternalServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddApplicationService();
 builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddHttpClient<IGoogleMapsService, GoogleMapsService>(client =>
+{
+    client.BaseAddress = new Uri("https://maps.googleapis.com/maps/api/"); 
+    client.DefaultRequestHeaders.Add("Accept", "application/json");
+    client.Timeout = TimeSpan.FromSeconds(30);
+});
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddControllersWithViews()

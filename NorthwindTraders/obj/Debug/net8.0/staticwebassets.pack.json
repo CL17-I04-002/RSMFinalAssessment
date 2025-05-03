@@ -189,6 +189,10 @@
       "PackagePath": "staticwebassets\\js\\GoogleMapIntegration.js"
     },
     {
+      "Id": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\addressValidator.js",
+      "PackagePath": "staticwebassets\\js\\addressValidator.js"
+    },
+    {
       "Id": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\deleteItem.js",
       "PackagePath": "staticwebassets\\js\\deleteItem.js"
     },

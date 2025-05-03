@@ -540,6 +540,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xvfn3ulft8"},{"Name":"integrity","Value":"sha256-Lds7QRSpy1ZeSbCvIcw6yIzQQ760m\u002BMouPV6Y0mJ4Kw="},{"Name":"label","Value":"_content/NorthwindTraders/font-awesome/webfonts/fa-v4compatibility.ttf"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10140"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022Lds7QRSpy1ZeSbCvIcw6yIzQQ760m\u002BMouPV6Y0mJ4Kw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 03:24:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/addressValidator.24kqxlyldi.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\addressValidator.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"24kqxlyldi"},{"Name":"integrity","Value":"sha256-roIvOvZbldWFp5hiXxsRDL5knYKe4fuywMyLI/Yq80U="},{"Name":"label","Value":"_content/NorthwindTraders/js/addressValidator.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1773"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022roIvOvZbldWFp5hiXxsRDL5knYKe4fuywMyLI/Yq80U=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 04:36:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/addressValidator.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\addressValidator.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-roIvOvZbldWFp5hiXxsRDL5knYKe4fuywMyLI/Yq80U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1773"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022roIvOvZbldWFp5hiXxsRDL5knYKe4fuywMyLI/Yq80U=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 04:36:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NorthwindTraders/js/deleteItem.b6jlzwjpnx.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\deleteItem.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

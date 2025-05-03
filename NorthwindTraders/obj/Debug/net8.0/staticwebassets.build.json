@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uwfNkRcjaFjy5+XGWZzoJKasgKpAt/s6WVs/v/pHcbo=",
+  "Hash": "nvg2ZME9zC7gn1OZox2DP/Qu3IR2GIjFcTMBDRcdtUY=",
   "Source": "NorthwindTraders",
   "BasePath": "_content/NorthwindTraders",
   "Mode": "Default",
@@ -1002,6 +1002,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\addressValidator.js",
+      "SourceId": "NorthwindTraders",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\",
+      "BasePath": "_content/NorthwindTraders",
+      "RelativePath": "js/addressValidator#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "24kqxlyldi",
+      "Integrity": "roIvOvZbldWFp5hiXxsRDL5knYKe4fuywMyLI/Yq80U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\addressValidator.js"
     },
     {
       "Identity": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\deleteItem.js",
@@ -6036,6 +6057,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Lds7QRSpy1ZeSbCvIcw6yIzQQ760m+MouPV6Y0mJ4Kw="
+        }
+      ]
+    },
+    {
+      "Route": "js/addressValidator.24kqxlyldi.js",
+      "AssetFile": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\addressValidator.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"roIvOvZbldWFp5hiXxsRDL5knYKe4fuywMyLI/Yq80U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 04:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "24kqxlyldi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/addressValidator.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-roIvOvZbldWFp5hiXxsRDL5knYKe4fuywMyLI/Yq80U="
+        }
+      ]
+    },
+    {
+      "Route": "js/addressValidator.js",
+      "AssetFile": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\addressValidator.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"roIvOvZbldWFp5hiXxsRDL5knYKe4fuywMyLI/Yq80U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 04:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-roIvOvZbldWFp5hiXxsRDL5knYKe4fuywMyLI/Yq80U="
         }
       ]
     },
