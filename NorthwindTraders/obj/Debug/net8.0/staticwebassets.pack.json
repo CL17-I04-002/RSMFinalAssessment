@@ -185,6 +185,10 @@
       "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
+      "Id": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\GoogleMapIntegration.js",
+      "PackagePath": "staticwebassets\\js\\GoogleMapIntegration.js"
+    },
+    {
       "Id": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\deleteItem.js",
       "PackagePath": "staticwebassets\\js\\deleteItem.js"
     },

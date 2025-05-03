@@ -44,6 +44,7 @@ wwwroot\font-awesome\webfonts\fa-solid-900.woff2
 wwwroot\font-awesome\webfonts\fa-v4compatibility.ttf
 wwwroot\font-awesome\webfonts\fa-v4compatibility.woff2
 wwwroot\js\deleteItem.js
+wwwroot\js\GoogleMapIntegration.js
 wwwroot\js\productPriceLoader.js
 wwwroot\js\saveOrder.js
 wwwroot\js\saveOrderDetail.js

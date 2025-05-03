@@ -3775,6 +3775,88 @@
       ]
     },
     {
+      "Route": "js/GoogleMapIntegration.js",
+      "AssetFile": "js/GoogleMapIntegration.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "611"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MkqEkCgLdrnfgE8vleytUIdqEMuGNjamAQcHICIsLrs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 02:54:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MkqEkCgLdrnfgE8vleytUIdqEMuGNjamAQcHICIsLrs="
+        }
+      ]
+    },
+    {
+      "Route": "js/GoogleMapIntegration.qxxgu28gto.js",
+      "AssetFile": "js/GoogleMapIntegration.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "611"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MkqEkCgLdrnfgE8vleytUIdqEMuGNjamAQcHICIsLrs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 02:54:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qxxgu28gto"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MkqEkCgLdrnfgE8vleytUIdqEMuGNjamAQcHICIsLrs="
+        },
+        {
+          "Name": "label",
+          "Value": "js/GoogleMapIntegration.js"
+        }
+      ]
+    },
+    {
       "Route": "js/deleteItem.b6jlzwjpnx.js",
       "AssetFile": "js/deleteItem.js",
       "Selectors": [],

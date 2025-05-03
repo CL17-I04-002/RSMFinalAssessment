@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iqloyqZDZ1QaZsCMxv6IrqzOLQk6wao1U/mW0VJmjUQ=",
+  "Hash": "uwfNkRcjaFjy5+XGWZzoJKasgKpAt/s6WVs/v/pHcbo=",
   "Source": "NorthwindTraders",
   "BasePath": "_content/NorthwindTraders",
   "Mode": "Default",
@@ -1023,6 +1023,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\deleteItem.js"
+    },
+    {
+      "Identity": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\GoogleMapIntegration.js",
+      "SourceId": "NorthwindTraders",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\",
+      "BasePath": "_content/NorthwindTraders",
+      "RelativePath": "js/GoogleMapIntegration#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qxxgu28gto",
+      "Integrity": "MkqEkCgLdrnfgE8vleytUIdqEMuGNjamAQcHICIsLrs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\GoogleMapIntegration.js"
     },
     {
       "Identity": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\productPriceLoader.js",
@@ -6097,6 +6118,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-rbh9oqg80QP9J5M78WGc6aRSeSQd7pOEYXz7y3AamNQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/GoogleMapIntegration.js",
+      "AssetFile": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\GoogleMapIntegration.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "611"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MkqEkCgLdrnfgE8vleytUIdqEMuGNjamAQcHICIsLrs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 02:54:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MkqEkCgLdrnfgE8vleytUIdqEMuGNjamAQcHICIsLrs="
+        }
+      ]
+    },
+    {
+      "Route": "js/GoogleMapIntegration.qxxgu28gto.js",
+      "AssetFile": "C:\\Users\\Inspiron\\Documents\\RSM\\FinalAssessment\\NorthwindTraders\\wwwroot\\js\\GoogleMapIntegration.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "611"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MkqEkCgLdrnfgE8vleytUIdqEMuGNjamAQcHICIsLrs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 02:54:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qxxgu28gto"
+        },
+        {
+          "Name": "label",
+          "Value": "js/GoogleMapIntegration.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MkqEkCgLdrnfgE8vleytUIdqEMuGNjamAQcHICIsLrs="
         }
       ]
     },
